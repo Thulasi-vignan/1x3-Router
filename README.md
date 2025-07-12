@@ -37,9 +37,4 @@ The testbench verifies:
 - FIFO behavior and data integrity
 - Control signal response
 
-### Run Simulation (using Icarus Verilog):
 
-```bash
-iverilog -o router_tb tb/router_tb.v src/*.v
-vvp router_tb
-gtkwave dump.vcd
